@@ -1,0 +1,16 @@
+.footer {
+    text-align: center;
+    background-color: #eee;
+    font-size: 12px;
+    padding: 10px 20px;
+    margin: 20px;
+    width: 100%;
+}
+
+.footer__icon:focus {
+    outline: 1px dotted #222;
+}
+
+.footer__icon:hover {
+    border: 1px dotted #222;
+}

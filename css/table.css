@@ -1,0 +1,43 @@
+.table {
+    font-family: "Ubuntu", sans-serif;
+    border-collapse: collapse;
+    text-align: center;
+    max-width: 1000px;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.table__tableData {
+    border: 1px solid #000;
+    vertical-align: center;
+    padding: 20px;
+}
+
+.table__tableHeading {
+    font-weight: normal;
+    background-color: #ddd;
+}
+
+.table__tableHeader {
+    background-color: #ddd;
+    font-size: 20px;
+}
+
+.table__tableTopHeading {
+    background-color: #2e8b57;
+    color: #eee;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.table__tableRow:nth-child(even) {
+    background-color: #8fbc8f;
+}
+
+.table__tableCaption {
+    padding-right: 5px;
+    text-align: right;
+    font-weight: 150;
+    font-style: italic;
+    caption-side: bottom;
+}

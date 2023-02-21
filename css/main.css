@@ -1,0 +1,33 @@
+.main {
+    margin: 40px 10px;
+    background-color: #eee;
+    padding: 10px 30px;
+    width: 100%;
+    }
+
+.main__article {
+    background-color: #fff;
+    margin: 55px 0px;
+    padding: 1px 30px 30px;
+    text-align: justify;
+}
+
+.main__h2Heading {
+    text-align: center;
+    font-size: 30px;
+    color: #2e8b57;
+}
+
+.main__link {
+    color: #2e8b57;
+    text-decoration: none;
+}
+
+.main__link:hover {
+    font-weight: 600;
+}
+
+.main__link:visited {
+    color: #2e8b57;
+    text-decoration: none;
+}

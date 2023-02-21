@@ -1,0 +1,18 @@
+.picture {
+    border: 2px solid black;
+    margin: 15px;
+}
+
+.picture--highlight {
+    box-shadow: 3px 3px 10px 1px blue;
+}
+
+.picture--portrait {
+    border-radius: 15%/8%;
+    box-shadow: 7px 5px 3px 2px #222;
+}
+
+.picture--portrait:hover {
+    border-radius: 15%/8%;
+    box-shadow: 10px 7px 7px 5px #222;
+}
